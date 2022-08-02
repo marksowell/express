@@ -1,7 +1,7 @@
 {
-    "name": "Express.js",
+    "name": "Express",
     "description": "Express application",
-    "repository": "https://github.com/marksowell/express",
+    "repository": "https://github.com/marksowell/express/tree/main",
     "logo": "https://avatars.githubusercontent.com/u/6068858?v=4",
     "keywords": ["webhook", "node.js", "express"],
     "env": {
