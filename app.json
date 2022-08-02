@@ -1,0 +1,7 @@
+{
+    "name": "Express",
+    "description": "Express application",
+    "repository": "https://github.com/marksowell/express",
+    "logo": "https://avatars.githubusercontent.com/u/6068858?v=4",
+    "keywords": ["node.js", "express"]
+  }
