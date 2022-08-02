@@ -6,4 +6,4 @@
 
 ### Heroku
 
-```heroku config:set [Key]=[Value] --app [app-name]```
+```heroku config:set KEY=VALUE --app <project-name>```
