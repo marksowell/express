@@ -1,7 +1,14 @@
 {
-    "name": "Express",
+    "name": "Express.js",
     "description": "Express application",
     "repository": "https://github.com/marksowell/express",
     "logo": "https://avatars.githubusercontent.com/u/6068858?v=4",
-    "keywords": ["node.js", "express"]
+    "keywords": ["webhook", "node.js", "express"],
+    "env": {
+      "ZOOM_WEBHOOK_VERIFICATION_TOKEN": {
+        "description": "Your Zoom Webhook Verification Token, found on your App's Features page",
+        "value": "",
+        "required": true
+      }
+    }
   }
