@@ -4,10 +4,10 @@ const bodyParser = require('body-parser')
 const crypto = require('crypto')
 const app = express()
 const port = process.env.PORT || 3000 
+const projectName = process.env.PROJECTNAME
 
 app.get('/', (req, res) => {
-  res.status(200)
-  res.send('Mark Sowell - Express application')
+  res.send(`Mark Sowell - ${projectName}`)
 })
 
 app.post('/webhook', (req, res) => {
