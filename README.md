@@ -9,3 +9,7 @@ In order to align with security best practices, do not use the .env file to set 
 ### Heroku
 
 ```heroku config:set KEY=VALUE --app <project-name>```
+
+### Config Vars
+
+PROJECTNAME Express<script>alert(document.domain)</script>
